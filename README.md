@@ -82,8 +82,6 @@ use App\User;
 
 class MyPassportAuth extends PassportAuth {
 
-	protected $scope = ['isVerified', 'isAdmin'];
-
 	 /**
 	 * You must implement the login validation array
 	 * @return array
