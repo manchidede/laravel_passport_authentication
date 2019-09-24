@@ -65,7 +65,7 @@ abstract class PassportAuth extends Controller implements PassportAuthInterface 
 			return response()->json(['error'=>$validator->errors()], 422);
 		}
 
-		$user = $this->CreateUser();
+		$user = $this->CreateUser($request);
 
 		return $this->response($user);
 	}

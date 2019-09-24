@@ -8,6 +8,7 @@
 
 namespace Chidi\Laravel_Passport_Auth;
 
+use Illuminate\Http\Request;
 
 interface PassportAuthInterface {
 	/**
@@ -22,7 +23,10 @@ interface PassportAuthInterface {
 
 	/**
 	 * create and return model
+	 *
+	 * @param Request $request
+	 *
 	 * @return mixed
 	 */
-	public function CreateUser();
+	public function CreateUser(Request $request);
 }
