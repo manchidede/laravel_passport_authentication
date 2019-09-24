@@ -1,6 +1,9 @@
 # laravel_passport_authentication
 This is a simple authentication package for laravel Applications using passport.
 
+##### Note: 
+Before you continue, make sure to setup laravel passport in your application according to [here](https://laravel.com/docs/5.8/passport).
+
 ## Installation
 
 Use composer [package](https://packagist.org/packages/chidi/laravel-passport-auth) to install laravel-passport-auth.
