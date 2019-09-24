@@ -46,7 +46,7 @@ trait PassportTrait {
 	/**
 	 * @var Request
 	 */
-	public $request;
+	protected $request;
 
 	/**
 	 * This method is called after login credentials have been verified.
