@@ -1,7 +1,7 @@
 {
     "name": "chidi/laravel-passport-auth",
     "description": "This is an authentication package for laravel Applications using passport",
-    "type": "laravel package",
+    "type": "laravelPackage",
     "keywords": ["passport authentication","laravel passport authentication", "passport auth", "laravel auth"],
     "license": "MIT",
     "authors": [
