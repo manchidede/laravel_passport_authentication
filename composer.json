@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "chidi\\laravel-passport-auth\\LaravelPassportAuthServiceProvider"
+                "Chidi\\Laravel_Passport_Auth\\LaravelPassportAuthServiceProvider"
             ]
         }
     },
