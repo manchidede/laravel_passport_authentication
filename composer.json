@@ -1,0 +1,30 @@
+{
+    "name": "chidi/laravel-passport-auth",
+    "description": "This is an authentication package for laravel Applications using passport",
+    "type": "laravel package",
+    "keywords": ["passport authentication","laravel passport authentication", "passport auth", "laravel auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chidi",
+            "email": "chidiblog1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.0",
+        "laravel/passport": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "chidi\\laravel-passport-auth\\LaravelPassportAuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Chidi\\Laravel_Passport_Auth\\": "src/"
+        }
+    }
+}
